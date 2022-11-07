@@ -40,12 +40,6 @@ class todoservice{
     }
    
 }
-const a = new todoservice();
-/*a.add_todo({"id":4,"title":"dummy","done":true})*/
-/*a.delete_todo(2,{"id":2,"title":"T1","done":false})*/
-/*a.update_todo(2,{"id":2,"title":"sunny","done":false}) */
-
-console.log(a.get_todos())
 
 
 module.exports= todoservice;

@@ -8,6 +8,12 @@ describe('todo test suite', () => {
     });
     
     let todo_service = new todoservice();
+    let todo1={
+        "title": "T4",
+        "description": "D4",
+        "done": false
+    };
+
 
     test("if service instance is created", () => {
         expect(todo_service instanceof todoservice).toBe(true);
